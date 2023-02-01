@@ -2,7 +2,7 @@
     padding:0;
     margin:0;
     box-sizing:border-box;
-    font-family: 'Red Hat Display';
+    font-family: Red Hat Display;
 }
 
 .container{
@@ -68,7 +68,7 @@
 }
 
 .plan p{
-    margin-top: 5px;
+    margin-top: 4px;
     font-size: 14px;
     text-align: left;
 }
@@ -82,6 +82,7 @@
     color: hsl(224, 23%, 55%);
     font-weight: 500;
     font-size: 13px;
+    margin-top: -1px;
 }
 
 .change{
@@ -127,6 +128,10 @@
 @media screen and (max-width: 375px){
     .container{
         background-image: url("./images/pattern-background-mobile.svg");
+    }
+    
+    .plan{
+        margin-right: 40px;
     }
 
 }
