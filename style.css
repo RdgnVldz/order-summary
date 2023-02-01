@@ -52,6 +52,7 @@
     height: 60px;
     border-radius:5px;
     margin-bottom: 15px;
+    justify-content: space-evenly;
 }
 
 .music img{
@@ -61,7 +62,8 @@
 }
 
 .plan{
-    margin-right: 45px;
+    margin-right: 50px;
+    width: 100px;
 }
 
 .plan p{
@@ -89,7 +91,7 @@
 
 .change p{
     text-align: right;
-    margin-top: 10px;
+    margin-top: 12px;
     font-size: 13px;
     font-weight: 700;
 }
@@ -125,4 +127,5 @@
     .container{
         background-image: url("./images/pattern-background-mobile.svg");
     }
+
 }
